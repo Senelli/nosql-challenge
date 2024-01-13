@@ -2,7 +2,7 @@
 
 ## Part 1: Database and Jupyter Notebook Set Up
 - Used the NoSQL_setup_starter.ipynb for this section of the challenge
-- Imported the data provided in the establishments.json file from the Terminal. Named the database uk_food and the collection establishments. Used the statement below.
+- Imported the data provided in the establishments.json file from the Terminal. Named the database uk_food and the collection establishments. Used the statement below:
     - mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 - Imported the librarie: PyMongo and Pretty Print (pprint).
 - Created an instance of the Mongo Client.
